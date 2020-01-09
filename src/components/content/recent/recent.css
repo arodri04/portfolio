@@ -1,0 +1,38 @@
+.recentContainer{
+    background: #8E8D8A;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 5%;
+    border-top: 5px double #E98074;
+    padding:2%;
+    border-bottom: 5px double #E98074;
+}
+.rGrid1{
+    width:auto;
+}
+.rGrid1 img{
+    width:100%;
+    border-radius: 15px;
+}
+
+.rGrid2 h2 {
+    color: #EAE7DC;
+    text-shadow: 10px 10px 8px;
+    padding-bottom: 3em;
+}
+.rGrid2 p {
+    color: #EAE7DC;
+    padding-bottom: 5%;
+}
+@media(max-width:1000px) {
+    .recentContainer{
+        grid-template-columns: 1fr;
+    }
+
+}
+@media(max-width:400px) {
+    .rGrid1{
+        display:none;
+    }
+
+}
